@@ -1,0 +1,83 @@
+/* body{
+    background-image: url("web_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+} */
+@keyframes neon2 {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228dff,
+        0 0 70px #228dff, 0 0 80px #228dff, 0 0 100px #228dff, 0 0 150px #228dff;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228dff,
+        0 0 35px #228dff, 0 0 40px #228dff, 0 0 50px #228dff, 0 0 75px #228dff;
+    }
+  }
+@font-face {
+    font-family: tron;
+    src: url(Tr2n.ttf);
+}
+.navbar{
+  
+
+}
+.ff{
+
+
+
+}
+.events-section{
+  position: absolute;
+  top:80%;
+  left: 6%;
+}
+
+@media (max-width: 994px) {
+  .ff{
+    width: 700px;
+    position: relative;
+    top:10%;
+
+  }
+  .events-section{
+    top:40%;
+    width:100px;
+    left: 1%;
+  }
+  .window{
+    margin: 45px;
+  }
+  footer{
+    width: 800%;
+  }
+  .textt{
+    font-size: 10rem;
+  }
+}
+/* @media (max-width: 480px) {
+    .ff{
+      width: 700px;
+  
+    }
+    .events-section{
+      width:100px;
+      left: 4%;
+    }
+    .window{
+      margin: 45px;
+    }
+  } */
+  footer{
+    position:relative; margin-top:40px;
+bottom: 0;
+width: 260%;
+font-family: sans-serif;
+font-size: 24px;
+color: white;
+height:100px;
+display: flex;
+align-items: center;
+justify-content: center;
+opacity: 0.6;
+  }
